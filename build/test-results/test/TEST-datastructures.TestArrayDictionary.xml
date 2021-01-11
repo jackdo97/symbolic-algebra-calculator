@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="datastructures.TestArrayDictionary" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-07-25T21:56:02" hostname="Thiens-MBP" time="1.997">
+  <properties/>
+  <testcase name="basicTestConstructor" classname="datastructures.TestArrayDictionary" time="0.003"/>
+  <testcase name="basicTestPutDuplicateKey" classname="datastructures.TestArrayDictionary" time="0.001"/>
+  <testcase name="basicTestPutUpdatesSize" classname="datastructures.TestArrayDictionary" time="0.001"/>
+  <testcase name="testContainsKeyBasic" classname="datastructures.TestArrayDictionary" time="0.001"/>
+  <testcase name="testGetMany" classname="datastructures.TestArrayDictionary" time="0.022"/>
+  <testcase name="testGetNonexistentKeyThrowsException" classname="datastructures.TestArrayDictionary" time="0.0"/>
+  <testcase name="testLargeKey" classname="datastructures.TestArrayDictionary" time="0.007"/>
+  <testcase name="testNullKey" classname="datastructures.TestArrayDictionary" time="0.001"/>
+  <testcase name="testPutAndGetBasic" classname="datastructures.TestArrayDictionary" time="0.001"/>
+  <testcase name="testPutAndGetMany" classname="datastructures.TestArrayDictionary" time="0.317"/>
+  <testcase name="testPutDuplicateKeyAndRemove" classname="datastructures.TestArrayDictionary" time="0.001"/>
+  <testcase name="testPutDuplicateKeyMany" classname="datastructures.TestArrayDictionary" time="0.0"/>
+  <testcase name="testPutDuplicateKeyMultiple" classname="datastructures.TestArrayDictionary" time="0.0"/>
+  <testcase name="testPutRemoveMany" classname="datastructures.TestArrayDictionary" time="1.635"/>
+  <testcase name="testRemoveBasic" classname="datastructures.TestArrayDictionary" time="0.001"/>
+  <testcase name="testRemoveNonexistentThrowsException" classname="datastructures.TestArrayDictionary" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
