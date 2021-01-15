@@ -61,3 +61,14 @@ x <span class="token operator">+</span> <span class="token number">2</span> <spa
 <span class="token number">4.44387822836193</span>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
+## Example 4: Expression transformation
+<pre class=" line-numbers language-pseudocode"><code class=" language-pseudocode"><span class="token operator">&gt;&gt;&gt;</span> y <span class="token operator">:</span><span class="token operator">=</span> x<span class="token operator">^</span><span class="token number">2</span> <span class="token operator">+</span> <span class="token number">7</span><span class="token operator">*</span>x <span class="token operator">+</span> <span class="token number">10</span>
+x <span class="token operator">^</span> <span class="token number">2</span> <span class="token operator">+</span> <span class="token number">7</span> <span class="token operator">*</span> x <span class="token operator">+</span> <span class="token number">10</span>
+
+<span class="token operator">&gt;&gt;&gt;</span> <span class="token function">plot</span><span class="token punctuation">(</span>y<span class="token punctuation">,</span> x<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">0.5</span><span class="token punctuation">)</span>  <span class="token comment" spellcheck="true">// Plot y by varying x from 0 to 10 in steps of 0.5</span>
+<span class="token comment" spellcheck="true">// Output plot omitted</span>
+
+<span class="token operator">&gt;&gt;&gt;</span> <span class="token function">derive</span><span class="token punctuation">(</span>y<span class="token punctuation">,</span> x<span class="token punctuation">)</span>            <span class="token comment" spellcheck="true">// Derive y with respect to x (extra credit)</span>
+<span class="token number">2</span> <span class="token operator">*</span> x <span class="token operator">+</span> <span class="token number">7</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
